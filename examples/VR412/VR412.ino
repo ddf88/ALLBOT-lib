@@ -35,7 +35,7 @@ String command;                           // Global variable that stores part of
 int times;                                // Global variable that stores part the received IR command
 int speedms;                              // Global variable that stores part the received IR command
 
-boolean IRreceive = false;                 // Set this to true if you want to use the IR remote
+boolean IRreceive = true;                 // Set this to true if you want to use the IR remote
 boolean receivelog = false;               // Set this to true if you want to see the serial messages for debugging the IR commands
 
 void setup() 
